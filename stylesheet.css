@@ -6,6 +6,7 @@
 /* Configuration of body elements. */
 body {
 	background-color: #5c5470
+	font-size: 100%;
 }
 div {
 	text-align: center;
@@ -13,17 +14,17 @@ div {
 
 /* Class definitions. */
 .normalfont{
-	font-family: roboto; 
+	font-family: roboto, Verdana, sans-serif; 
 	font-weight: 800; 
 	color: #F7F0FF
 }
 .lightfont{
-	font-family: roboto-light; 
+	font-family: roboto-light, Verdana, sans-serif; 
 	font-weight: 600; 
 	color: #F7F0FF
 }
 .thinfont{
-	font-family: roboto-thin; 
+	font-family: roboto-thin, Verdana, sans-serif; 
 	font-weight: 700; 
 	color: #F7F0FF
 }
