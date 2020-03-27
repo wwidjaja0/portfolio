@@ -28,6 +28,10 @@ li a {
 	text-decoration: none;
 }
 
+li a:hover {
+	background-color: #4c3F4F;
+}
+
 /* Class definitions. */
 .currentpage {
 	background-color: #625266
