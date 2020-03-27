@@ -7,6 +7,6 @@
 body {background-color: #5c5470}
 
 /* Class definitions. */
-.headbar{font-family: roboto; font-weight: 800}
-.title{font-family: roboto-light; font-weight: 600}
-.text{font-family: roboto-thin; font-weight: 700}
+.headbar{font-family: roboto; font-weight: 800; color: #F7F0FF}
+.title{font-family: roboto-light; font-weight: 600; color: #F7F0FF}
+.text{font-family: roboto-thin; font-weight: 700; color: #F7F0FF}
