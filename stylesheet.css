@@ -1,21 +1,12 @@
 /* Adding some Roboto fonts from Google. */
-@font-face {
-	font-family: roboto-thin;
-	src: url('Roboto-Thin.ttf')
-}
-
-@font-face {
-	font-family: roboto;
-	src: url('Roboto-Regular.ttf')
-}
-
-@font-face {
-	font-family: roboto-light;
-	src: url('Roboto-Light.ttf')
-}
+@font-face {font-family: roboto; src: url('Roboto-Regular.ttf')}
+@font-face {font-family: roboto-light; src: url('Roboto-Light.ttf')}
+@font-face {font-family: roboto-thin; src: url('Roboto-Thin.ttf')}
 
 /* Configuration of body elements. */
 body {background-color: #5c5470}
+
+/* Class definitions. */
 .headbar{font-family: roboto; font-weight: 800}
 .title{font-family: roboto-light; font-weight: 600}
 .text{font-family: roboto-thin; font-weight: 700}
