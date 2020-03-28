@@ -28,13 +28,14 @@ li a {
 	text-decoration: none;
 }
 
-li a:hover {
+li a:hover:not(.currentpage) {
 	background-color: #4c3F4F;
 }
 
 /* Class definitions. */
 .currentpage {
-	background-color: #625266
+	background-color: #625266;
+	cursor: pointer;
 }
 
 .normalfont {
