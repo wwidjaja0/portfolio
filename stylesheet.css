@@ -18,18 +18,22 @@ ul {
 	background-color: #7B6780;
 }
 
-li {
+ul li {
 	float: left;
 }
 
-li a {
+ul li a {
 	display: block;
 	padding: 15px;
 	text-decoration: none;
 }
 
-li a:hover:not(.currentpage) {
+ul li a:hover:not(.currentpage) {
 	background-color: #4c3F4F;
+}
+
+iframe {
+	display: inline-block;
 }
 
 /* Class definitions. */
