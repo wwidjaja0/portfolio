@@ -32,9 +32,14 @@ ul li a:hover:not(.currentpage) {
 	background-color: #afb8de;
 }
 
+ol {
+	padding: 15px;
+	margin: 0;
+}
+
 iframe {
 	display: inline-block;
-	padding: 20px;
+	padding: 5px;
 }
 
 /* Class definitions. */
