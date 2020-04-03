@@ -50,19 +50,17 @@ iframe {
 
 .normalfont {
 	font-family: roboto, Verdana, sans-serif; 
-	font-weight: 800;
-	font-size: 18px;
 	color: #1c1e30;
 }
 .lightfont {
 	font-family: roboto-light, Verdana, sans-serif; 
-	font-weight: 600;
-	font-size: 18px;
 	color: #1c1e30;
 }
 .thinfont {
 	font-family: roboto-thin, Verdana, sans-serif; 
-	font-weight: 700;
-	font-size: 18px;
 	color: #1c1e30;
 }
+
+.bigf { font-size: 36px; }
+.mediumf { font-size: 24px; }
+.smallf { font-size: 12px; }
