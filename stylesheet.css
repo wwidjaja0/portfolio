@@ -8,6 +8,11 @@ body {
 	background-color: #a6b1e1;
 }
 
+div {
+	padding: 2em;
+	max-width: 100%;
+}
+
 ul {
 	list-style-type: none;
 	padding: 1em;
@@ -26,7 +31,7 @@ ul li {
 
 ul li a {
 	display: block;
-	padding: 1em;
+	padding: 2em 1em;
 	text-decoration: none;
 }
 
