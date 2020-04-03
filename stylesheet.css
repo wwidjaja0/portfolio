@@ -10,8 +10,8 @@ body {
 
 ul {
 	list-style-type: none;
-	padding: 0.3125em;
-	margin: 1.25em;
+	padding: 1em;
+	margin: 3em;
 	max-width: 100%;
 	overflow: hidden;
 	background-color: #dcd6f7;
@@ -20,13 +20,12 @@ ul {
 ul li {
 	display: inline-block;
 	float: left;
-	margin: 1em;
 	max-width: 100%;
 }
 
 ul li a {
-	display: inline;
-	padding: 3em;
+	display: block;
+	padding: 1em;
 	text-decoration: none;
 	max-width: 100%;
 }
