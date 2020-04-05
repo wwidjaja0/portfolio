@@ -28,7 +28,8 @@ ul {
 ul li {
 	display: inline-block;
 	float: left;
-	min-width: 33.33%; /* width of the header buttons */
+	padding: 1vw;
+	min-width: 31%; /* width of the header buttons */
 	max-width: 100%;
 }
 
