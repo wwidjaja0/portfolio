@@ -30,7 +30,7 @@ ul li {
 	display: inline-block;
 	float: left;
 	padding: 1vw;
-	min-width: 22%; /* width of the header buttons */
+	min-width: 22.5%; /* width of the header buttons */
 	max-width: 100%;
 }
 
