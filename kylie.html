@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="utf-8" />
-	<title>For: Kylie</title>
+	<title>Dear Kylie</title>
 	<link rel="home" href="https://widjaja0.github.io/" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://slgoetz.com/public/css/main.min.css?v=1586639039" rel="stylesheet">
@@ -16,116 +16,176 @@
 			position: fixed;
 			z-index: 100;
 		}
+		.section-title {
+			font-size: larger;
+		}
+		button {
+			color:black;
+			background-color: white;
+			font-family: Verdana, Geneva, Tahoma, sans-serif;
+			font-size: x-small;
+  			position: relative;
+		}
+	</style>
+	<style>
+		/* customizable snowflake styling */
+		.snowflake {
+		  color: #fff;
+		  font-size: 1em;
+		  font-family: Arial, sans-serif;
+		  text-shadow: 0 0 5px #000;
+		}
+		 
+		.snowflake,.snowflake .inner{animation-iteration-count:infinite;animation-play-state:running}@keyframes snowflakes-fall{0%{transform:translateY(0)}100%{transform:translateY(110vh)}}@keyframes snowflakes-shake{0%,100%{transform:translateX(0)}50%{transform:translateX(80px)}}.snowflake{position:fixed;top:-10%;z-index:9999;-webkit-user-select:none;user-select:none;cursor:default;animation-name:snowflakes-shake;animation-duration:3s;animation-timing-function:ease-in-out}.snowflake .inner{animation-duration:10s;animation-name:snowflakes-fall;animation-timing-function:linear}.snowflake:nth-of-type(0){left:1%;animation-delay:0s}.snowflake:nth-of-type(0) .inner{animation-delay:0s}.snowflake:first-of-type{left:10%;animation-delay:1s}.snowflake:first-of-type .inner,.snowflake:nth-of-type(8) .inner{animation-delay:1s}.snowflake:nth-of-type(2){left:20%;animation-delay:.5s}.snowflake:nth-of-type(2) .inner,.snowflake:nth-of-type(6) .inner{animation-delay:6s}.snowflake:nth-of-type(3){left:30%;animation-delay:2s}.snowflake:nth-of-type(11) .inner,.snowflake:nth-of-type(3) .inner{animation-delay:4s}.snowflake:nth-of-type(4){left:40%;animation-delay:2s}.snowflake:nth-of-type(10) .inner,.snowflake:nth-of-type(4) .inner{animation-delay:2s}.snowflake:nth-of-type(5){left:50%;animation-delay:3s}.snowflake:nth-of-type(5) .inner{animation-delay:8s}.snowflake:nth-of-type(6){left:60%;animation-delay:2s}.snowflake:nth-of-type(7){left:70%;animation-delay:1s}.snowflake:nth-of-type(7) .inner{animation-delay:2.5s}.snowflake:nth-of-type(8){left:80%;animation-delay:0s}.snowflake:nth-of-type(9){left:90%;animation-delay:1.5s}.snowflake:nth-of-type(9) .inner{animation-delay:3s}.snowflake:nth-of-type(10){left:25%;animation-delay:0s}.snowflake:nth-of-type(11){left:65%;animation-delay:2.5s}
 	</style>
 </head>
 
 <body data-state='homepage' class='homepage loading'>
 
+	<div class="snowflakes" aria-hidden="true">
+		<div class="snowflake">
+		  <div class="inner">❅</div>
+		</div>
+		<div class="snowflake">
+		  <div class="inner">❅</div>
+		</div>
+		<div class="snowflake">
+		  <div class="inner">❅</div>
+		</div>
+		<div class="snowflake">
+		  <div class="inner">❅</div>
+		</div>
+		<div class="snowflake">
+		  <div class="inner">❅</div>
+		</div>
+		<div class="snowflake">
+		  <div class="inner">❅</div>
+		</div>
+		<div class="snowflake">
+		  <div class="inner">❅</div>
+		</div>
+		<div class="snowflake">
+		  <div class="inner">❅</div>
+		</div>
+		<div class="snowflake">
+		  <div class="inner">❅</div>
+		</div>
+		<div class="snowflake">
+		  <div class="inner">❅</div>
+		</div>
+		<div class="snowflake">
+		  <div class="inner">❅</div>
+		</div>
+		<div class="snowflake">
+		  <div class="inner">❅</div>
+		</div>
+	  </div>
+
 <div id="preloader"></div>
+
+<audio autoplay loop id="song">
+	<source src="./song.mp3">
+</audio>
 
 	<div id="universe">
 	<main id="content" role="main">	
     		<div class="page-header">
 			<div class="content">
-				<h1>HAPPY BIRTHDAY</h1>
+				<h1>HAPPY BIRTHDAY !!!</h1>
 				<p class="sub-header">
-				and Merry Christmas<br> from Widjaja™
+				and Merry Christmas &#x1f384;
+				<br> an unconventional gift from me to you.
 				</p>
+				<p class="sub-header" style="font-size: smaller;">
+				From W. Widjaja
+				</p>
+				<div style="position:relative;">
+					<button onclick="theyLikeMusic()" id="likemusic" style="position:absolute; top:0; left:0;">Click me!</button>
+					<button onclick="theyDontLikeMusic()" id="dontlikemusic" style="visibility:hidden; position:absolute; top:0; left:0;">Mute me.</button>
+				</div>
 			</div>
 			</div>	
 		<div class="fake-holder">
 			
 			<div class="affix">
 				<section class="project-section">
-					<div class="section-title">Selected Work</div>
+					<div class="section-title">Kylie-core</div>
 					<div class="projects clear">
 						<div class="project black" style="background-color: #fff4ea">
-								<a href="https://populum.com" target="_blank" rel="no_follow"></a>
-								<img class="product full" src="" />
+							<img class="product full" src="" />
 								
-								<div class="text">
-									<h3 >Populum</h3>
-									<p class="motto">Premium CBD.</p>
-								</div>
-								<div class="services">Brand, Development, Product Design</div>
+							<div class="text">
+								<h3 >One thing about them.</h3>
+								<p class="motto">Date the photo was taken.</p>
 							</div>
-													<div class="project white" style="background-color: #3d77ea">
-								<a href="http://myclean.com" target="_blank" rel="no_follow"></a>
-								<img class="product center" src="" />
-								
-								<div class="text">
-									<h3 >MyClean</h3>
-									<p class="motto">We clean, you relax.</p>
-								</div>
-								<div class="services">Brand, Development, Product Design, Strategy </div>
-							</div>
-													<div class="project white" style="background-color: #2f3a48">
-								<a href="http://breakwaterstudios.com/" target="_blank" rel="no_follow"></a>
-								<img class="product right" src="" />
-								
-								<div class="text">
-									<h3 >Breakwater</h3>
-									<p class="motto">A Filmmaking Studio of the Past and Future</p>
-								</div>
-								<div class="services"> Content, Design, Development</div>
-							</div>
-													<div class="project white" style="background-color: #001828">
-								<a href="https://handelarchitects.com/" target="_blank" rel="no_follow"></a>
-								<img class="product right" src="" />
-								
-								<div class="text">
-									<h3 >Handel Architects</h3>
-									<p class="motto">Architects, planners, and designers out to change the world.</p>
-								</div>
-								<div class="services">Design, , Development, Strategy </div>
-							</div>
-													<div class="project white" style="background-color: #b1cbab">
-								<a href="http://gardencollage.com" target="_blank" rel="no_follow"></a>
-								<img class="product " src="" />
-								
-								<div class="text">
-									<h3 >Garden Collage</h3>
-									<p class="motto">The Magazine for Life in Bloom</p>
-								</div>
-								<div class="services">Development, Product Design</div>
-							</div>
-													<div class="project white" style="background-color: #2d2d2d">
-								<a href="http://architizer.com" target="_blank" rel="no_follow"></a>
-								<img class="product right" src="" />
-								
-								<div class="text">
-									<h3 >Architizer</h3>
-									<p class="motto">Empowering architects.</p>
-								</div>
-								<div class="services">Development, Product Design</div>
-							</div>
-													<div class="project white" style="background-color: #25cbf2">
-								<a href="http://wiredscore.com" target="_blank" rel="no_follow"></a>
-								<img class="product right" src="" />
-								
-								<div class="text">
-									<h3 >WiredScore</h3>
-									<p class="motto">Connectivity Matters</p>
-								</div>
-								<div class="services">Design, Development</div>
-							</div>
+							<div class="services">TEXT HERE AS A DESCRIPTION OF THE MEMORY</div>
 						</div>
+						<div class="project white" style="background-color: #3d77ea">
+							<img class="product center" src="" />
+								
+							<div class="text">
+								<h3>One thing about them.</h3>
+								<p class="motto">Date the photo was taken.</p>
+							</div>
+							<div class="services">TEXT HERE AS A DESCRIPTION OF THE MEMORY</div>
+						</div>
+						<div class="project white" style="background-color: #2f3a48">
+							<img class="product right" src="" />
+								
+							<div class="text">
+								<h3>One thing about them.</h3>
+								<p class="motto">Date the photo was taken.</p>
+							</div>
+							<div class="services">TEXT HERE AS A DESCRIPTION OF THE MEMORY</div>
+						</div>
+						<div class="project white" style="background-color: #001828">
+							<img class="product right" src="" />
+								
+							<div class="text">
+								<h3 >One thing about them.</h3>
+								<p class="motto">Date the photo was taken.</p>
+							</div>
+							<div class="services">TEXT HERE AS A DESCRIPTION OF THE MEMORY</div>
+						</div>
+						<div class="project white" style="background-color: #b1cbab">
+							<img class="product " src="" />
+								
+							<div class="text">
+								<h3>One thing about them.</h3>
+								<p class="motto">Date the photo was taken.</p>
+							</div>
+							<div class="services">TEXT HERE AS A DESCRIPTION OF THE MEMORY</div>
+						</div>
+						<div class="project white" style="background-color: #2d2d2d">
+							<img class="product right" src="" />
+								
+							<div class="text">
+								<h3>One thing about them.</h3>
+								<p class="motto">Date the photo was taken.</p>
+							</div>
+							<div class="services">TEXT HERE AS A DESCRIPTION OF THE MEMORY</div>
+						</div>
+						<div class="project white" style="background-color: #25cbf2">
+							<img class="product right" src="" />
+								
+							<div class="text">
+								<h3>One thing about them.</h3>
+								<p class="motto">Date the photo was taken.</p>
+							</div>
+							<div class="services">TEXT HERE AS A DESCRIPTION OF THE MEMORY</div>
+						</div>
+					</div>
 				</section>
 
 				<section class="bio">
-					<div class="section-title">Information</div>
+					<div class="section-title">P.S.</div>
 					<div class="content">
 						<div class="text">
-							<h2>Simon Goetz is Partner at Milkshake Studio, living in Brooklyn, NY. </h2>
-							<p>With a background in architecture, tech, and freelance, Simon is experienced in just about every form of design. This, combined with his childhood obsession for taking apart and rebuilding electronics, helps to form the perfect balance of functional products with clean code to back it up. When he is not stuck to his computer, you can find him running through the streets of New York, creating mad concoctions in the kitchen, or off on some mountain man adventure.</p>
+							<h2>Kylie Lau</h2>
+							<p>Hey Kylie!!! Thanks for all the fun moments this year and all the time you've spent with me these past few weeks. You are the favorite person that I have met all year and I just want you to know that you mean a lot to me this year and you will continue to mean a lot to me from now on. Have a wonderful 19th birthday and a Merry Christmas :)</p>
 						</div>
-						<div class="social">
-							<a href="https://milkshake.studio" rel='no_follow' target="_blank">Milkshake</a>
-							<a href="https://instagram.com/slgoetz" rel='no_follow' target="_blank">Instagram</a>
-							<a href="https://twitter.com/simonlgoetz" rel='no_follow' target="_blank">Twitter</a>
-							<a href="http://dribbble.com/slgoetz" rel='no_follow' target="_blank">Dribbble</a>
-							<a href="https://github.com/slgoetz" rel='no_follow' target="_blank">GitHub</a>
-							<a href="https://unsplash.com/@slgoetz" rel='no_follow' target="_blank">Unsplash</a>
+						<div>
+							<img src="https://gifdb.com/images/high/anime-himouto-umaru-chan-umaru-doma-merry-christmas-9k80lnlnxtqzppcl.gif" style="width:100%; height:auto;">
 						</div>
 					</div>
 				</section>
@@ -134,19 +194,28 @@
 	
 	</main>
 	</div>
-	<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-		ga('create', 'UA-20268780-1', 'auto');
-		ga('send', 'pageview');
-	</script>
 	<script src="https://slgoetz.com/public/js/app.min.js?v=1586639039"></script>
 	<script>
 		var loader = document.getElementById("preloader");
+		var song = new Audio("song.mp3");
+		song.volume = 0.1;
 
+		function theyLikeMusic() {
+			document.getElementById("likemusic").style.visibility = "hidden";
+			document.getElementById("dontlikemusic").style.visibility = "visible";
+			song.play();
+		}
+
+		function theyDontLikeMusic() {
+			document.getElementById("likemusic").style.visibility = "visible";
+			document.getElementById("dontlikemusic").style.visibility = "hidden";
+			song.pause();
+		}
+		
 		window.addEventListener("load", function(){loader.style.display = "none";})
+		window.onbeforeunload = function () {
+			window.scrollTo(0, 0);
+		}
 	</script>
 </body>
 </html>
