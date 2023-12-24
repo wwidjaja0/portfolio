@@ -210,8 +210,8 @@
 	<script>
 		var loader = document.getElementById("preloader");
 		var song = new Audio("song.mp3");
-		song.loop = true;
 		song.volume = 0.1;
+		song.loop = true;
 
 		function theyLikeMusic() {
 			document.getElementById("likemusic").style.visibility = "hidden";
@@ -227,6 +227,7 @@
 
 		song.addEventListener('ended', function() {
 			this.currentTime = 0;
+			this.volume = 0.1;
 			this.play();
 		}, false);
 		
