@@ -211,7 +211,6 @@
 		var loader = document.getElementById("preloader");
 		var song = new Audio("song.mp3");
 		song.volume = 0.1;
-		song.loop = true;
 
 		function theyLikeMusic() {
 			document.getElementById("likemusic").style.visibility = "hidden";
@@ -225,7 +224,7 @@
 			song.pause();
 		}
 
-		song.addEventListener('ended', function() {
+		song.addEventListener("ended", function() {
 			this.currentTime = 0;
 			this.volume = 0.1;
 			this.play();
