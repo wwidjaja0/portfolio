@@ -140,7 +140,7 @@
 							<div class="services">wow, look at us :)</div>
 						</div>
 						<div class="project white" style="background-color: #2f3a48">
-							<img class="product center" src="./bryceimgs/bryce2.png"/>
+							<img class="product center" src="./bryceimgs/bryce2.jpg"/>
 								
 							<div class="text">
 								<h3>GRADUATION!</h3>
@@ -149,7 +149,7 @@
 							<div class="services">look at all those cords !</div>
 						</div>
 						<div class="project white" style="background-color: #001828">
-							<img class="product center" src="./bryceimgs/bryce3.png"/>
+							<img class="product center" src="./bryceimgs/bryce3.jpg"/>
 								
 							<div class="text">
 								<h3 >Pool and POGO day :)</h3>
@@ -192,7 +192,7 @@
 					<div class="content">
 						<div class="text">
 							<h2>Dear: Bryce Villao</h2>
-							<p>Hey Bryce! I'm so glad that we're roommates this year and I'm really thankful for all that you've done for and given to me this year. Including the things you've done for my family :) Looking forward to another two semesters with my one and only pinoy roomie &#128523;</p>
+							<p>Hey Bryce! I'm so glad that we're roommates this year and I'm really thankful for all that you've done for and given to me this year. Including the things you've done for my family :) I've never known a guy that is so respectable and admirable as you are like your clear skin (which I'm sure Annie complements plenty) and your smarts and how calm and personable you are, and on and on... Looking forward to another two semesters with my one and only pinoy roomie &#128523;</p>
 							<p> - Widjaja
 						</div>
 						<div>
@@ -222,7 +222,12 @@
 			document.getElementById("dontlikemusic").style.visibility = "hidden";
 			song.pause();
 		}
-		
+
+		song.addEventListener("ended", function(){
+			song.currentTime = 0;
+			song.play();
+	    });
+	    
 		window.addEventListener("load", function(){loader.style.display = "none";})
 		window.onbeforeunload = function () {
 			window.scrollTo(0, 0);

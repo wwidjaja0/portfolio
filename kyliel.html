@@ -214,6 +214,10 @@
 			document.getElementById("dontlikemusic").style.visibility = "hidden";
 			song.pause();
 		}
+
+		song.addEventListener("ended", function(){
+			song.currentTime = 0;
+	    });
 		
 		window.addEventListener("load", function(){loader.style.display = "none";})
 		window.onbeforeunload = function () {
