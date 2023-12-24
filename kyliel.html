@@ -201,6 +201,7 @@
 	<script>
 		var loader = document.getElementById("preloader");
 		var song = new Audio("song.mp3");
+		song.loop = true;
 		song.volume = 0.1;
 
 		function theyLikeMusic() {
@@ -215,9 +216,10 @@
 			song.pause();
 		}
 
-		song.addEventListener("ended", function(){
-			song.currentTime = 0;
-	    });
+		song.addEventListener('ended', function() {
+			this.currentTime = 0;
+			this.play();
+		}, false);
 		
 		window.addEventListener("load", function(){loader.style.display = "none";})
 		window.onbeforeunload = function () {
