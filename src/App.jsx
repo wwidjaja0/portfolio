@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <div>
-        <a href="https://wwidjaja.site" target="_blank">
+        <a href="https://wwidjaja.site" target="_self">
           <img src={myLogo} className="logo" alt="Widjaja's Logo" />
         </a>
         <a href="https://react.dev" target="_blank">
