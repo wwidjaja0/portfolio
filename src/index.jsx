@@ -7,6 +7,7 @@ import AboutPage from "./routes/AboutPage.jsx";
 import ContactPage from "./routes/ContactPage.jsx";
 import ThoughtsPage from "./routes/ThoughtsPage.jsx";
 import "./index.css";
+import { BackgroundBeamsDemo } from "./routes/BackgroundBeamsDemo.jsx";
 
 const router = createBrowserRouter([
   {
@@ -19,11 +20,15 @@ const router = createBrowserRouter([
   },
   {
     path: "thoughts",
-    element: <ContactPage />,
+    element: <ThoughtsPage />,
   },
   {
     path: "contact",
-    element: <ThoughtsPage />,
+    element: <ContactPage />,
+  },
+  {
+    path: "beams",
+    element: <BackgroundBeamsDemo />,
   },
 ]);
 
