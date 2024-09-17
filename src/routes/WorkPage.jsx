@@ -1,5 +1,3 @@
-import { lazy, Suspense, useEffect, useState } from "react";
-import Navbar from "../components/Navbar";
 import MainLayout from "../layouts/MainLayout";
 
 export default function WorksPage() {

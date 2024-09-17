@@ -4,14 +4,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-/* Hide scrollbars but keep scrolling functionality */
-html, body {
-    overflow: hidden; /* Hides the scrollbar */
-}
-
-/* To allow scrolling with hidden scrollbar */
-.root {
-    overflow: auto; /* Allows scrolling inside specific elements */
-    padding-right: 15px; /* Optional: Add padding to account for scrollbar width */
-}
