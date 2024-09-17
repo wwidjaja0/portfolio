@@ -11,7 +11,7 @@ export default function Navbar() {
           ["Contact", "/contact"],
         ].map(([title, url]) => (
           <li key={title + "Page"} className="inline">
-            <Link to={url} className="block py-2 px-4 decoration-transparent text-red-500 font-semibold text-xl hover:bg-slate-800 hover:rounded-lg">
+            <Link to={url} className="block py-2 px-4 decoration-transparent text-rose-600 font-semibold text-xl hover:bg-slate-800 hover:rounded-lg">
               {title}
             </Link>
           </li>
